@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label "linux" }
 
     tools {
         jdk 'jdk-11'
